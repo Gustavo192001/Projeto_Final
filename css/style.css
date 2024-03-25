@@ -1,0 +1,312 @@
+body {
+    background-color: black;
+    color: white; /* Define a cor do texto para branco */
+    font-family: Arial, sans-serif; /* Define uma fonte */
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.8); /* Usando um fundo preto semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .label-float input:focus ~ label, .label-float input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: gold; /* Cor de fundo dourada para o botão */
+    color: black; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellow; /* Altera a cor de fundo ao passar o mouse */
+  }
+  
+  a {
+    color: yellow; /* Define a cor do link como amarelo */
+  }
+  
+  .label-float {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float input {
+    width: 100%; /* Define a largura do input como 100% do contêiner */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow; /* Adiciona uma borda amarela na parte inferior */
+    background-color: transparent;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+  }
+  
+  .label-float label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow; /* Cor do label */
+  }
+  
+  .label-float input:focus ~ label, .label-float input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .justify-center {
+    text-align: center; /* Alinha o conteúdo do div ao centro */
+  }
+  .label-float-date {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float-date input {
+    width: calc(100% - 20px); /* Reduz a largura do input para acomodar o ícone do olho */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow; /* Adiciona uma borda amarela na parte inferior */
+    background-color: transparent;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+  }
+  
+  .label-float-date label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow; /* Cor do label */
+  }
+  
+  .label-float-date input:focus ~ label, .label-float-date input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .label-float-date input[type="date"] {
+    padding-right: 30px; /* Ajusta o padding para acomodar o ícone */
+  }
+  
+  .label-float-date i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: yellow; /* Cor do ícone */
+  }
+  
+  .label-float {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float input {
+    width: calc(100% - 40px); /* Reduz a largura do input para acomodar o ícone do olho */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow; /* Adiciona uma borda amarela na parte inferior */
+    background-color: transparent;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+  }
+  
+  .label-float label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow; /* Cor do label */
+  }
+  
+  .label-float input:focus ~ label, .label-float input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .label-float i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: yellow; /* Cor do ícone */
+  }
+
+  .label-float-date {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float-date input {
+    width: calc(100% - 40px); /* Reduz a largura do input para acomodar o ícone do olho */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow; /* Adiciona uma borda amarela na parte inferior */
+    background-color: transparent;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+  }
+  
+  .label-float-date label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow; /* Cor do label */
+  }
+  
+  .label-float-date input:focus ~ label, .label-float-date input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .label-float-date i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: yellow; /* Cor do ícone */
+  }
+  
+  .label-float-date {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float-date input {
+    width: calc(100% - 40px); /* Reduz a largura do input para acomodar o ícone do olho */
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow; /* Adiciona uma borda amarela na parte inferior */
+    background-color: transparent;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+  }
+  
+  .label-float-date label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow; /* Cor do label */
+  }
+  
+  .label-float-date input:focus ~ label, .label-float-date input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .label-float-date i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: yellow; /* Cor do ícone */
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .label-float {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .label-float input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid yellow;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .label-float label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: yellow;
+  }
+  
+  .label-float input:focus ~ label, .label-float input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+  }
+  
+  .label-float i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: yellow;
+  }
+  
+  .justify-center {
+    text-align: center;
+  }
+  
+  button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellow;
+  }
+  
+  a {
+    color: yellow;
+  }
+  
